@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="css/primer.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/octicons.css">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    <div class="container main-container">
+        <div class="columns">
+            <div class="single-column column">
+                <h1><span class="mega-octicon octicon-home"></span>  thikrosin</h1>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="single-column column">
+                {{ content }}
+            </div>
+        </div>
+        <div class="columns">
+            <div class="one-third column">
+                <p>{{ site.author.name }}<br> <a  href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+            </div>
+            <div class="two-third column">
+                <p>
+                  <a href="http://github.com/{{ site.github }}"><span class="octicon octicon-mark-github"></span> github.com/{{ site.github }}</a>
+                  <br>
+                  <a href="#">linked in</a>
+              </p>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

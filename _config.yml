@@ -1,0 +1,20 @@
+title:  "Thiago K. Rosin Page"
+author:
+  name: "Thiago Knakiwicz Rosin"
+  email: "contact@thiagorosin.com"
+
+github: "thikrosin"
+facebook: "thiago.rosin"
+linkedin: nil
+
+# Handling Reading
+encoding: utf-8
+
+# Conversion
+highlighter:  pygments
+markdown:   redcarpet
+
+# Outputting
+timezone:  America/Sao_Paulo
+permalink: pretty
+
