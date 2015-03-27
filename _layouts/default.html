@@ -14,9 +14,21 @@
 <body>
     <div class="container main-container">
         <div class="columns">
-            <div class="single-column column">
+            <div class="one-third column">
+                <img class="avatar" src="http://www.gravatar.com/avatar/{{ site.gravatar_hash }}" />
+            </div>
+            <div class="one-third column">
                 <h1><span class="mega-octicon octicon-home"></span>  thikrosin</h1>
             </div>
+            <div class="one-third column">
+                <!-- not right now, later make it have 2 versions
+                <div class="clearfix">
+                    <p class="text-right">
+                      <a href="#">en</a> | <a href="#">pt-br</a>
+                    </p>
+                </div> -->
+                &nbsp;
+          </div>
         </div>
         <div class="columns">
             <div class="single-column column">
@@ -27,11 +39,11 @@
             <div class="one-third column">
                 <p>{{ site.author.name }}<br> <a  href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
             </div>
-            <div class="two-third column">
+            <div class="two-thirds column">
                 <p>
-                  <a href="http://github.com/{{ site.github }}"><span class="octicon octicon-mark-github"></span> github.com/{{ site.github }}</a>
+                  <a href="http://github.com/{{ site.github }}" target="_blank"><span class="octicon octicon-mark-github"></span> github.com/{{ site.github }}</a>
                   <br>
-                  <a href="#">linked in</a>
+                  <a href="http://{{ site.linkedin }}" target="_blank">LinkedIn</a>
               </p>
           </div>
       </div>
